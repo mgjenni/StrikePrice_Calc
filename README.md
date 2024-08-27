@@ -23,8 +23,8 @@ I recently completed a project that allowed me to blend two of my passions: clou
 - <b>CSS</b>
 
 <h2>Key Learnings </h2>
-- Gained practical experience with AWS services like Lambda, IAM, Amplify, CloudWatch, DynamoDB, and API Gateway.
-- Deepened my understanding of database operations and how to effectively set up APIs with API Gateway and JavaScript.
+- Gained practical experience with AWS services like Lambda, IAM, Amplify, CloudWatch, DynamoDB, and API Gateway. <br>
+- Deepened my understanding of database operations and how to effectively set up APIs with API Gateway and JavaScript.<br>
 - Overcame challenges in debugging HTML scripts and writing Python code for Lambda functions, particularly in database interactions.
 
 
