@@ -34,6 +34,22 @@ I recently completed a project that allowed me to blend two of my passions: clou
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Creat a CloudWatch alarm to keeo track of resource usage: <br/>
+Create a CloudWatch alarm to keeo track of resource usage: <br/>
 <img src="https://i.imgur.com/Lxysfby.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Creat new user separate from root user for security purposes: <br/>
+<img src="https://i.imgur.com/FMJfobZ.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Creat new user separate from root user for security purposes: <br/>
+<img src="https://i.imgur.com/FMJfobZ.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="blob:https://imgur.com/7941245b-14cb-4da9-942b-f5e55cb9dffb" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Use Amplify to host web page: <br/>
+<img src="https://i.imgur.com/pvvUMym.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
