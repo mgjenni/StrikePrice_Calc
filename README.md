@@ -4,7 +4,7 @@
 
 
 <h2>Description</h2>
-This is a simple web application built on 6 AWS services. The appplication takes in a current stock price and a target percentage (as a decimal) and returns the answer back to the webpage, while storing it in a database on the backend. 
+I recently completed a project that allowed me to blend two of my passions: cloud technology and stock trading. I developed a web-based calculator that helps determine the optimal strike price for a CALL option, based on the current stock price and a target percentage.
 <br />
 
 
@@ -21,8 +21,10 @@ This is a simple web application built on 6 AWS services. The appplication takes
 - <b>HTML</b>
 - <b>CSS</b>
 
-
-
+<h2>Key Learnings </h2>
+- Gained practical experience with AWS services like Lambda, IAM, Amplify, CloudWatch, DynamoDB, and API Gateway.
+- Deepened my understanding of database operations and how to effectively set up APIs with API Gateway and JavaScript.
+- Overcame challenges in debugging HTML scripts and writing Python code for Lambda functions, particularly in database interactions.
 
 
 <h2>Environments Used </h2>
@@ -30,3 +32,8 @@ This is a simple web application built on 6 AWS services. The appplication takes
 - <b>Amazon Web Services</b>
 
 <h2>Program walk-through:</h2>
+
+<p align="center">
+Creat a CloudWatch alarm to keeo track of resource usage: <br/>
+<img src="https://imgur.com/Lxysfby" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
