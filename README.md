@@ -1,6 +1,6 @@
 # StrikePrice_Calc
 
-<h1>Strike Price Calculaor</h1>
+<h1>Strike Price Calculator</h1>
 
 
 <h2>Description</h2>
@@ -14,10 +14,10 @@ I recently completed a project that allowed me to blend two of my passions: clou
 - <b>AWS IAM</b>
 - <b>AWS Amplify</b>
 - <b>AWS CloudWatch</b>
-- <b>AWS Dynamodb</b>
+- <b>AWS DynamoDB</b>
 - <b>AWS API Gateway</b>
-- <b>Pyton</b>
-- <b>Javascript</b>
+- <b>Python</b>
+- <b>JavaScript</b>
 - <b>JSON</b>
 - <b>HTML</b>
 - <b>CSS</b>
@@ -35,12 +35,12 @@ I recently completed a project that allowed me to blend two of my passions: clou
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Create a CloudWatch alarm to keeo track of resource usage: <br/>
+Create a CloudWatch alarm to keep track of resource usage: <br/>
 <img src="https://i.imgur.com/Lxysfby.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
 
 <p align="center">
-Creat new user separate from root user for security purposes: <br/>
+Create a new user separate from root user for security purposes: <br/>
 <img src="https://i.imgur.com/FMJfobZ.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <img src="https://i.imgur.com/5yw5Xhr.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
