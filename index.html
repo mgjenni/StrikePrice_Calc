@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <meta "charset=utf-8" />
+
+    <title>Get Your Strike Price</title>
+
+<style media="screen">
+
+  body{
+
+    background-color: gold
+
+  }
+
+  h1{
+
+  text-align: center;
+  position: absolute;
+
+}
+
+</style>
+
+    <script>
+    // callAPI function that takes the Price and Percent numbers as parameters
+    var callAPI = (price,percent)=>{
+        // instantiate a headers object
+        var myHeaders = new Headers();
+        // add content type header to object
+        myHeaders.append("Content-Type", "application/json");
+        // using built in JSON utility package turn object to string and store in a variable
+        var raw = JSON.stringify({"price":price,"percent":percent});
+        // create a JSON object with parameters for API call and store in a variable
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+        };
+        // make API call with parameters and use promises to get response
+        fetch("https://seh792xwp0.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+        .then(response => response.text())
+        .then(result => alert(JSON.parse(result).body))
+        .catch(error => console.log('error', error));
+    }
+
+
+function Clear(){
+  document.getElementById("Current_Price").value="";
+  document.getElementById("Percent").value="";
+}
+
+    </script>
+  </head>
+  <body>
+
+  <form>
+
+  <h1>
+    <label for=""> <strong>Current Stock Price:</strong> </label>
+    <input type="text" id="Current_Price" placeholder="Price">
+  </h1>
+
+    <br>
+
+  <h1>
+    <label for=""> <strong>Enter Percent As Decimal:</strong></label>
+    <input type="text" id="Percent" placeholder="Percent">
+  </h1>
+
+  <h1>
+    <button type="button" onclick=" callAPI( document.getElementById('Current_Price').value, document.getElementById('Percent').value ); Clear();  "> STRIKE!!! </button>
+  </h1>
+
+  </form>
+
+</body>
+</html>
