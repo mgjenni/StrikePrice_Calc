@@ -42,7 +42,7 @@ Create a CloudWatch alarm to keeo track of resource usage: <br/>
 <p align="center">
 Creat new user separate from root user for security purposes: <br/>
 <img src="https://i.imgur.com/FMJfobZ.png" height="80%" width="80%" alt="StrikePriceSteps"/>
-<img src="https://imgur.com/7941245b-14cb-4da9-942b-f5e55cb9dffb" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="https://i.imgur.com/5yw5Xhr.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
 
 <p align="center">
