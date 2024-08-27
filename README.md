@@ -18,6 +18,7 @@ I recently completed a project that allowed me to blend two of my passions: clou
 - <b>AWS API Gateway</b>
 - <b>Pyton</b>
 - <b>Javascript</b>
+- <b>JSON</b>
 - <b>HTML</b>
 - <b>CSS</b>
 
@@ -41,11 +42,6 @@ Create a CloudWatch alarm to keeo track of resource usage: <br/>
 <p align="center">
 Creat new user separate from root user for security purposes: <br/>
 <img src="https://i.imgur.com/FMJfobZ.png" height="80%" width="80%" alt="StrikePriceSteps"/>
-<br />
-
-<p align="center">
-Creat new user separate from root user for security purposes: <br/>
-<img src="https://i.imgur.com/FMJfobZ.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <img src="https://imgur.com/7941245b-14cb-4da9-942b-f5e55cb9dffb" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
 
@@ -53,3 +49,35 @@ Creat new user separate from root user for security purposes: <br/>
 Use Amplify to host web page: <br/>
 <img src="https://i.imgur.com/pvvUMym.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
+
+<p align="center">
+Create Dynamodb database to hold strike prices: <br/>
+<img src="https://i.imgur.com/ATLNTts.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Write Lambda function and test: <br/>
+<img src="https://i.imgur.com/nqD0iDc.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="https://i.imgur.com/CPaHMpt.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="https://i.imgur.com/K8VyztA.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Give Lambda function permission to write to the database: <br/>
+<img src="https://i.imgur.com/IixAft6.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Set up API Gateway so that the lambda function can be called from Javascript <br/>
+<img src="https://i.imgur.com/Xj7o8eF.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+<p align="center">
+Front End Walkthrough and Results<br/>
+<img src="https://i.imgur.com/c9OGKyo.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="https://i.imgur.com/ogY79Wh.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="https://i.imgur.com/ahtghKF.png" height="80%" width="80%" alt="StrikePriceSteps"/>
+<br />
+
+
+
