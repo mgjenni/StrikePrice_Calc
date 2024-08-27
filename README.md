@@ -35,5 +35,5 @@ I recently completed a project that allowed me to blend two of my passions: clou
 
 <p align="center">
 Creat a CloudWatch alarm to keeo track of resource usage: <br/>
-<img src="https://imgur.com/Lxysfby" height="80%" width="80%" alt="StrikePriceSteps"/>
+<img src="https://i.imgur.com/Lxysfby.png" height="80%" width="80%" alt="StrikePriceSteps"/>
 <br />
